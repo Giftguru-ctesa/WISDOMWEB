@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Photo placeholder for a community activity">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7A1740"/>
+      <stop offset=".5" stop-color="#D63A6C"/>
+      <stop offset="1" stop-color="#38091B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="10%" r="60%">
+      <stop offset="0" stop-color="#F7C5D6" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#F7C5D6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#glow)"/>
+  <circle cx="150" cy="190" r="190" fill="none" stroke="#FFF9F6" stroke-opacity=".09" stroke-width="2"/>
+  <circle cx="1050" cy="730" r="260" fill="none" stroke="#FFF9F6" stroke-opacity=".08" stroke-width="2"/>
+  <circle cx="600" cy="360" r="176" fill="#FFF9F6" fill-opacity=".07" stroke="#FFF9F6" stroke-opacity=".22" stroke-width="2"/>
+  <g transform="translate(600 360)" fill="none" stroke="#FFF9F6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="0" cy="-56" r="36" fill="#FFF9F6" fill-opacity=".14"/>
+    <path d="M-64 76c0-35 29-62 64-62s64 27 64 62" fill="#FFF9F6" fill-opacity=".1"/>
+    <circle cx="-88" cy="-22" r="25" fill="#F49FBC" fill-opacity=".2"/>
+    <path d="M-136 67c0-26 22-48 48-48 9 0 17 2 24 6" stroke="#F49FBC"/>
+    <circle cx="88" cy="-22" r="25" fill="#F49FBC" fill-opacity=".2"/>
+    <path d="M136 67c0-26-22-48-48-48-9 0-17 2-24 6" stroke="#F49FBC"/>
+    <path d="M-30 14c18 14 42 14 60 0" stroke="#E0B968" stroke-width="6"/>
+  </g>
+  <rect x="64" y="64" width="266" height="54" rx="27" fill="#FFF9F6" fill-opacity=".1" stroke="#FFF9F6" stroke-opacity=".28"/>
+  <text x="92" y="99" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="3" fill="#FBE0E9">ADD YOUR PHOTO</text>
+  <text x="600" y="628" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#FFF9F6">Your photo here</text>
+  <text x="600" y="670" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#F7C5D6">Replace this placeholder with a community photo</text>
+  <text x="600" y="824" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="5" fill="#FFF9F6" fill-opacity=".6">WISDOM ACADEMY SCHOOLS &#183; ABUJA</text>
+  <path d="m938 170 7 16 17 2-13 11 4 17-15-8-15 8 4-17-13-11 17-2Z" fill="#E0B968" opacity=".85"/>
+  <path d="m240 650 5 11 12 1-9 8 3 12-11-6-11 6 3-12-9-8 12-1Z" fill="#FFF9F6" opacity=".5"/>
+</svg>

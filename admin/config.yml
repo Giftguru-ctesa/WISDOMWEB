@@ -1,0 +1,41 @@
+backend:
+  name: turbo-github
+  turbo_site_id: YOUR_TURBO_SITE_ID
+  branch: main
+
+media_folder: "assets/gallery"
+public_folder: "assets/gallery"
+
+collections:
+  - name: "gallery"
+    label: "Activities Gallery"
+    files:
+      - name: "gallery"
+        label: "Gallery Photos"
+        file: "data/gallery.json"
+        format: "json"
+        fields:
+          - label: "Photos"
+            name: "items"
+            widget: "list"
+            summary: "{{title}} — {{category}}"
+            fields:
+              - label: "Photo"
+                name: "src"
+                widget: "image"
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "Category"
+                name: "category"
+                widget: "string"
+                hint: "For example: Learning, Sports, Arts & culture, Environment, Community, Faith"
+              - label: "Description (alt text)"
+                name: "alt"
+                widget: "string"
+                hint: "A short description of what is happening in the photo."
+              - label: "Date"
+                name: "date"
+                widget: "string"
+                required: false
+                hint: "Optional, for example: 12 June 2026"

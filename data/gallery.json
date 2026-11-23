@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "src": "assets/gallery/learning.svg",
+      "alt": "Placeholder for a classroom learning activity photo",
+      "title": "Learning in action",
+      "category": "Learning",
+      "date": ""
+    },
+    {
+      "src": "assets/gallery/sports.svg",
+      "alt": "Placeholder for a school sports activity photo",
+      "title": "Sports and teamwork",
+      "category": "Sports",
+      "date": ""
+    },
+    {
+      "src": "assets/gallery/arts.svg",
+      "alt": "Placeholder for an arts and culture activity photo",
+      "title": "Creative arts and culture",
+      "category": "Arts & culture",
+      "date": ""
+    },
+    {
+      "src": "assets/gallery/environment.svg",
+      "alt": "Placeholder for an environment activity photo",
+      "title": "Caring for our environment",
+      "category": "Environment",
+      "date": ""
+    },
+    {
+      "src": "assets/gallery/community.svg",
+      "alt": "Placeholder for a school community activity photo",
+      "title": "Community and celebration",
+      "category": "Community",
+      "date": ""
+    },
+    {
+      "src": "assets/gallery/faith.svg",
+      "alt": "Placeholder for a faith and character activity photo",
+      "title": "Faith and character",
+      "category": "Faith",
+      "date": ""
+    }
+  ]
+}
