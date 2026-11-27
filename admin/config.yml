@@ -1,6 +1,6 @@
 backend:
   name: turbo-github
-  turbo_site_id: YOUR_TURBO_SITE_ID
+  turbo_site_id: 3d561cdb-6f32-4814-ade2-e87757887d54
   branch: main
 
 media_folder: "assets/gallery"
